@@ -301,7 +301,7 @@ footer h3,p{
     }
     .products{
         max-width: 100%;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .product{
         max-width: 100%;
@@ -314,7 +314,7 @@ footer h3,p{
         max-width: 100%;
     }
     .blogs{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         max-width: 100%;
     }
 }
