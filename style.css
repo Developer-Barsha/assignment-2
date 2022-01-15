@@ -39,7 +39,7 @@ main{
 }
 .intro{
     width: 50%;
-    margin: 3%;
+    margin: 15px;
 }
 .intro>h1{
     font-size: 50px;
@@ -60,7 +60,7 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin: 3%;
+    margin: 15px;
     display: flex;
 }
 .intro-img>img{
@@ -164,7 +164,7 @@ main{
     font-size: 18px;
     font-weight: 600;
     float: right;
-    margin:-30px 4% 0 0;
+    margin:-30px 50px 0 0;
     cursor: pointer;
 }
 .see-more:hover>a>.fas{
@@ -176,7 +176,7 @@ main{
 
 .blogs-extra{
     padding-top: 50px;
-    margin: 3%;
+    margin: 15px;
 }
 .blogs-extra>h1{
     text-align: center;
@@ -187,7 +187,7 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 100%;
     gap: 30px;
-    padding: 3%;
+    padding: 15px;
 }
 .blog{
     max-width: 1fr;
@@ -296,6 +296,10 @@ footer h3,p{
     .blogs{
         grid-template-columns: 1fr;
         max-width: 80%;
+        gap: 30px;
+    }
+    .blog{
+        max-width: 90%;
     }
 }
 
@@ -304,10 +308,10 @@ footer h3,p{
 @media only screen and (min-width: 689px) and (max-width:1100px) {
 
     header{
-        margin: 5px;
+        margin: 10px;
     }
     header h1{
-        font-size: 18px;
+        font-size: 20px;
     }
     .top-section{
         display: flex;
@@ -342,5 +346,8 @@ footer h3,p{
     .blogs{
         grid-template-columns: 1fr 1fr;
         max-width: 80%;
+    }
+    .blog{
+        max-width: 90%;
     }
 }
