@@ -291,11 +291,11 @@ footer h3,p{
         height: 256px;
     }
     .blogs-extra{
-        max-width: 100%;
+        max-width: 90%;
     }
     .blogs{
         grid-template-columns: 1fr;
-        max-width: 90%;
+        max-width: 80%;
     }
 }
 
@@ -337,10 +337,10 @@ footer h3,p{
         height: 256px;
     }
     .blogs-extra{
-        max-width: 100%;
+        max-width: 90%;
     }
     .blogs{
         grid-template-columns: 1fr 1fr;
-        max-width: 90%;
+        max-width: 80%;
     }
 }
